@@ -25,16 +25,21 @@ The `say` script detects Japanese characters (hiragana, katakana, kanji) and rou
 ## Installation Steps
 
 1. Install the [voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/) and note the installed version (e.g. `1.10.4`)
-2. Copy the modified `say` script over the plugin's default one:
+2. Clone this repo:
    ```bash
-   cp ~/work/claude-voice-jp/say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/<VERSION>/scripts/say
+   git clone https://github.com/akkikiki/claude-voice-jp.git
+   cd claude-voice-jp
    ```
-3. Copy the voice config:
+3. Copy the modified `say` script over the plugin's default one (replace `<VERSION>` with your installed version):
    ```bash
-   cp ~/work/claude-voice-jp/voice.local.md ~/.claude/voice.local.md
+   cp say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/<VERSION>/scripts/say
+   ```
+4. Copy the voice config:
+   ```bash
+   cp voice.local.md ~/.claude/voice.local.md
    ```
 
-> **Note:** After a plugin update, repeat step 2 with the new version number.
+> **Note:** After a plugin update, repeat step 3 with the new version number.
 
 ## Available Japanese Voices
 

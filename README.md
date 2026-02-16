@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Modified version of the Claude Code **voice plugin** (`cctools-plugins/voice v1.10.4`) to support both English and Japanese text-to-speech.
+Modified version of the Claude Code **[voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/)** (`cctools-plugins/voice v1.10.4`) to support both English and Japanese text-to-speech.
 
 | Language | Engine | Port | Voice Default | How It Runs |
 |----------|--------|------|---------------|-------------|

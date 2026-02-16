@@ -1,5 +1,9 @@
 # Claude Voice JP - Bilingual TTS Setup
 
+
+https://github.com/user-attachments/assets/49a68fc6-f957-49a5-8dfd-1cfbd63481ff
+
+
 ## What This Is
 
 Modified version of the Claude Code **[voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/)** (`cctools-plugins/voice v1.10.4`) to support both English and Japanese text-to-speech.

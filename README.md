@@ -21,10 +21,18 @@ The `say` script detects Japanese characters (hiragana, katakana, kanji) and rou
 
 - `uv` installed (for pocket-tts via `uvx`)
 - Docker Desktop installed and running (for Kokoro-FastAPI)
+- [claude-code-tools](https://github.com/pchalasani/claude-code-tools) installed:
+  ```bash
+  claude plugin marketplace add pchalasani/claude-code-tools
+  ```
+- [Voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/#installation) installed:
+  ```bash
+  claude plugin install voice@cctools-plugins
+  ```
 
 ## Installation Steps
 
-1. Install the [voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/) and note the installed version (e.g. `1.10.4`)
+1. Note the installed voice plugin version (e.g. `1.10.4`)
 2. Clone this repo:
    ```bash
    git clone https://github.com/akkikiki/claude-voice-jp.git

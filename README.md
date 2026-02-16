@@ -22,13 +22,19 @@ The `say` script detects Japanese characters (hiragana, katakana, kanji) and rou
 - `uv` installed (for pocket-tts via `uvx`)
 - Docker Desktop installed and running (for Kokoro-FastAPI)
 
-## Restoring After Plugin Update
+## Installation Steps
 
-If the voice plugin updates, the modified `say` script gets overwritten. To restore:
+1. Install the [voice plugin](https://pchalasani.github.io/claude-code-tools/plugins-detail/voice/) and note the installed version (e.g. `1.10.4`)
+2. Copy the modified `say` script over the plugin's default one:
+   ```bash
+   cp ~/work/claude-voice-jp/say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/<VERSION>/scripts/say
+   ```
+3. Copy the voice config:
+   ```bash
+   cp ~/work/claude-voice-jp/voice.local.md ~/.claude/voice.local.md
+   ```
 
-```bash
-cp ~/work/claude-voice-jp/say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/1.10.4/scripts/say
-```
+> **Note:** After a plugin update, repeat step 2 with the new version number.
 
 ## Available Japanese Voices
 

@@ -27,7 +27,7 @@ The `say` script detects Japanese characters (hiragana, katakana, kanji) and rou
 If the voice plugin updates, the modified `say` script gets overwritten. To restore:
 
 ```bash
-cp ~/work/audio_playground/say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/1.10.4/scripts/say
+cp ~/work/claude-voice-jp/say-kokoro ~/.claude/plugins/cache/cctools-plugins/voice/1.10.4/scripts/say
 ```
 
 ## Available Japanese Voices

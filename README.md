@@ -1,4 +1,4 @@
-# Audio Playground - Bilingual TTS Setup
+# Claude Voice JP - Bilingual TTS Setup
 
 ## What This Is
 
